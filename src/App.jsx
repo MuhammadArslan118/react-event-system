@@ -9,8 +9,8 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-4 container max-width px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen container bg-gray-100 p-4 px-4  max-w-screen-xl mx-auto overflow-x-hidden">
+      <div className=" ">
         <header className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
             Event-Driven React Architecture Demo
@@ -20,7 +20,7 @@ function App() {
           </p>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 mb-8">
           <div className="space-y-6">
             <UserProfile />
             <ProductCatalog />

@@ -5,6 +5,7 @@ import { EVENT_TYPES, eventBus } from "../utils/eventBus";
 import useEventBus from "../hooks/useEvent";
 
 const ShoppingCartComponent = () => {
+  console.log("App component rendered");
   const [items, setItems] = useState([]);
   const [total, setTotal] = useState(0);
 

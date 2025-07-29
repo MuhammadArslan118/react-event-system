@@ -83,7 +83,7 @@ const EventMonitor = () => {
           </button>
           <button
             onClick={() => setIsVisible(false)}
-            className="text-gray-400 hover:text-white text-lg"
+            className="text-gray-400 hover:text-white text-sm px-2 py-1 rounded hover:bg-gray-600 h-8"
             title="Close monitor"
           >
             ×
