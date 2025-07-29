@@ -5,11 +5,11 @@ import ProductCatalog from "./components/ProductCatalog";
 import ShoppingCartComponent from "./components/ShoppingCart";
 import OrderHistory from "./components/OrderHistory";
 import EventMonitor from "./components/EventMonitor";
-import "./App.css";
+import "./index.css";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="min-h-screen bg-gray-100 p-4 container max-width px-4">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
